@@ -23,7 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-...
+```
 admin.py
 from django.contrib import admin 
 from .models import people,peopleAdmin
@@ -43,7 +43,7 @@ class people(models.Model):
        Email=models.EmailField()
 class peopleAdmin(admin.ModelAdmin):
     list_display=('Name','Aadharno','address','loanamt','Email')
-...
+```
     
 ## OUTPUT
 ![alt text](<Screenshot (576).png>)
